@@ -1,0 +1,217 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Dion Stoade",
+            "email": "dstoade0@cornell.edu",
+            "isStaff": true
+        },
+        {
+            "id": 2,
+            "fullName": "Windy Thorneloe",
+            "email": "wthorneloe1@usa.gov",
+            "isStaff": true
+        },
+        {
+            "id": 3,
+            "fullName": "Hillie Phillpotts",
+            "email": "hphillpotts2@rakuten.co.jp",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "fullName": "Helenelizabeth Passfield",
+            "email": "hpassfield7@netvibes.com",
+            "isStaff": false
+        },
+        {
+            "id": 5,
+            "fullName": "Franchot Slator",
+            "email": "fslator8@51.la",
+            "isStaff": true
+        },
+        {
+            "id": 6,
+            "fullName": "Renaud Erbe",
+            "email": "rerbe9@psu.edu",
+            "isStaff": true
+        },
+        {
+            "id": 7,
+            "email": "jeremy@bakker.com",
+            "fullName": "Jeremy Bakker",
+            "isStaff": false
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 3,
+            "loyaltyNumber": 11111
+        },
+        {
+            "id": 2,
+            "userId": 4,
+            "loyaltyNumber": 22222
+        },
+        {
+            "id": 3,
+            "userId": 7,
+            "loyaltyNumber": 33333
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 1,
+            "startDate": "May 5, 1990",
+            "payRate": 72.47,
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "userId": 6,
+            "startDate": "September 21, 1999",
+            "payRate": 50.55,
+            "locationId": 3
+        },
+        {
+            "id": 3,
+            "userId": 2,
+            "startDate": "January 3, 2001",
+            "payRate": 45.90,
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "userId": 5,
+            "startDate": "April 21, 2005",
+            "payRate": 40.55,
+            "locationId": 4
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "2802 Zula Locks",
+            "sqft": 5674
+        },
+        {
+            "id": 2,
+            "address": "56849 Fadel Gateway",
+            "sqft": 3278
+        },
+        {
+            "id": 3,
+            "address": "7346 Ritchie Road",
+            "sqft": 9678
+        },
+        {
+            "id": 4,
+            "address": "589 Tricolor Drive",
+            "sqft": 5888
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Snockers",
+            "typeId": 2,
+            "price": 1.33
+        },
+        {
+            "id": 2,
+            "name": "Sticky Tricks",
+            "typeId": 3,
+            "price": 2.59
+        },
+        {
+            "id": 3,
+            "name": "Rainbow Poops",
+            "typeId": 3,
+            "price": 5.55
+        },
+        {
+            "id": 4,
+            "name": "Blue Tongue",
+            "typeId": 1,
+            "price": 3.45
+        },
+        {
+            "id": 5,
+            "name": "Shockers",
+            "typeId": 1,
+            "price": 3.77
+        },
+        {
+            "id": 6,
+            "name": "Mouthwaterers",
+            "typeId": 4,
+            "price": 4.99
+        },
+        {
+            "id": 7,
+            "name": "Juicy Juice",
+            "typeId": 4,
+            "price": 4.39
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "sour candy"
+        },
+        {
+            "id": 2,
+            "type": "chocolate"
+        },
+        {
+            "id": 3,
+            "type": "bizarre"
+        },
+        {
+            "id": 4,
+            "type": "gummies"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "locationInventoryId": 1,
+            "purchaseQuantity": 5
+        }
+    ],
+    "locationInventories": [
+        {
+            "id": 1,
+            "locationId": 4,
+            "productId": 7,
+            "inventoryQuantity": 43
+        },
+        {
+            "id": 2,
+            "locationId": 3,
+            "productId": 5,
+            "inventoryQuantity": 98
+        },
+        {
+            "id": 3,
+            "locationId": 1,
+            "productId": 4,
+            "inventoryQuantity": 77
+        },
+        {
+            "id": 4,
+            "locationId": 2,
+            "productId": 3,
+            "inventoryQuantity": 55
+        },
+        {
+            "id": 5,
+            "locationId": 4,
+            "productId": 2,
+            "inventoryQuantity": 22
+        }
+    ]
+}
